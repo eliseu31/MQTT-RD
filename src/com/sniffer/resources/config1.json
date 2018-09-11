@@ -1,0 +1,35 @@
+{
+	"sniffer_id": "systec",
+	"sniffer_type": "local",
+	"start_broker": "yes",	
+	"remote_brokers": 
+	{
+		"server": 
+		{
+			"ip": "m13.cloudmqtt.com",
+			"port": "14795",
+			"user": "mgjgcnfr",
+			"pass": "AcZGKIhGoRF_"		
+		},
+		"sniffer":
+		{
+			"ip": "m13.cloudmqtt.com",
+			"port": "14795",
+			"user": "mgjgcnfr",
+			"pass": "AcZGKIhGoRF_"		
+		}
+	},
+	"local_broker":
+	{
+		"ip": "autodetected",
+		"port": "1883"
+	},
+	"network":
+	{
+		"network_id": "n1",
+		"ip": "224.0.1.1",
+		"port": "9876"
+	},
+	"list_path": "/src/com/sniffer/resources/yellowpages1.json",
+	"transport": "mqtt"
+}
