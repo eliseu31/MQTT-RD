@@ -1,4 +1,4 @@
-# Fiware-Sniffer
+# Sniffer-MQTT
 
 ## Getting Started
 ### Prerequisites
@@ -23,35 +23,26 @@ java -jar dist/Sniffer.jar
 
 ### Architecture
 
-
 ### MQTT Topics
 
+<!-- Topic to regist a public entity (sniffer) or a new device in the others entities (sniffers). -->
 
-Topic to regist a public entity (sniffer) or a new device in the others entities (sniffers).
-```
-/externalregist
-```
-  
 Topic to regist a new device in the sniffer responsible for the local network.
 ```
 /registdevice
 ```  
-  
-Topic to get the list off entities and devices from the server Fiware.
+
+Topic to get the list off entities and devices from the Sniffer-MQTT.
 ```
 /getlist
 ```
   
-Topic that devices use to get all topics that they can subscribe.
-```
-/gettopics
-```
+<!-- Topic that devices use to get all topics that they can subscribe. -->
   
 Topic used by the device, to publish the data from one attribute.
 ```
 /device_id/attrs/attribute_id
 ```
-**device_id:** ID used to register the device in the platform.  
-**attribute_id:**  
 
-## Authors
+**device_id:** ID used to register the device in the platform.  
+**attribute_id:** ID used to register the attribute of that device in the platform.
