@@ -24,11 +24,11 @@ In the path [/src/com/sniffer/resources/config1.json](/src/com/sniffer/resources
 
 The configuration settings that you can change are:
 
-* ***sniffer_id*** - unnique id that you want to use.
+* ***sniffer id*** - unnique id that you want to use.
 
-* ***sniffer_type*** - local or internet (if the broker was in a internet address).
+* ***sniffer type*** - local or internet (if the broker was in a internet address).
 
-* ***start_broker*** - if you want to start automatically a broker (recomended yes).
+* ***start broker*** - if you want to start automatically a broker (recomended yes).
 
 * ***remote broker settings*** - IP address, port, username and password.
 
