@@ -34,7 +34,7 @@ The configuration settings that you can change are:
 
 * ***local broker settings*** - 'autodetected' if you want ta the Sniffer detects the broker automatically, otherwise you must specify the IP. You need also to define the port.
 
-* ***network settings*** - Multicast address that you want to use for the device/sniffer discovery. You need also to define the port and the network id.
+* ***network settings*** - multicast address that you want to use for the device/sniffer discovery. You need also to define the port and the network id.
 
 ## Device Usage
 
