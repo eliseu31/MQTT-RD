@@ -1,7 +1,5 @@
 # MQTT-RD Sniffer
 
-## Getting Started
-
 ### Prerequisites
 
 * **JDK** - Java Development Kit
