@@ -67,3 +67,14 @@ Topic used by the device, to publish the data from one attribute.
 
 **device_id:** ID used to register the device in the platform.  
 **attribute_id:** ID used to register the attribute of that device in the platform.
+
+## Citation
+
+```
+@inproceedings{MQTTRD,
+  title={MQTT-RD: A MQTT based Resource Discovery for Machine to Machine Communication},
+  author={Eliseu Pereira and Rui Pinto and Jo{\~a}o Reis and Gil Gonçalves},
+  booktitle={IoTBDS},
+  year={2019}
+}
+```
