@@ -1,4 +1,4 @@
-# MQTT-RD Sniffer
+# MQTT-RD
 
 ### Prerequisites
 
